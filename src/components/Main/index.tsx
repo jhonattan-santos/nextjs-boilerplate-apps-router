@@ -1,8 +1,12 @@
 import * as S from '@/components/Main/styles'
 
-export const Main = () => (
+export const Main = ({
+  title = 'React Avançado',
+  description = 'TypeScript, ReactJS, NextJS e Styled Components'
+}) => (
   <S.Wrapper>
-    <h1>React Avançado</h1>
+    <h1>{title}</h1>
+    <p>{description}</p>
   </S.Wrapper>
 )
 export default Main
