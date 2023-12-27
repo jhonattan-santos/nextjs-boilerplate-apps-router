@@ -1,6 +1,8 @@
+'use client'
+
 import * as S from '@/components/Main/styles'
 
-export const Main = ({
+const Main = ({
   title = 'React Avançado',
   description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
