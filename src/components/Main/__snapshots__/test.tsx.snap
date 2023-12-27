@@ -21,7 +21,7 @@ exports[`<Main /> should render the heading 1`] = `
     React Avançado
   </h1>
   <p>
-    TypeScript, ReactJS, NextJS e Styled Components
+    TypeScript, ReactJS, NextJS e Styled Components.
   </p>
 </main>
 `;
